@@ -40,7 +40,11 @@ a{
 }
 
 .header-bar .navbar-option:hover{
-    background-color: #6665DD;
+    background-color: #8381e7;
+}
+
+.header-bar .navbar-option.selected{
+    background-color: #5654d6;
 }
 
 .page-content{
@@ -57,11 +61,24 @@ ul{
 }
 
 .article{
-    background-color: red;
+    box-shadow: 0px 0px 2px 1px rgb(122, 122, 122);
+    background-color: rgb(221, 221, 221);
+    padding: 5px;
+}
+
+.article .author{
+    width: 100%;
+    padding-left: 30px;
+    color: grey;
+    text-align: left;
 }
 
 .article .title{
     width: 100%;
     font-size: 40px;
     font-weight: bold;
+}
+
+.article .content{
+    padding: 15px;
 }
