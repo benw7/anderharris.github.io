@@ -3,12 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="8481438d-54bb-4446-af71-b98f9b0edeff" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environment.html" beforeDir="false" afterPath="$PROJECT_DIR$/environment.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,7 +44,7 @@
       <workItem from="1636028780250" duration="1002000" />
       <workItem from="1636029805492" duration="328000" />
       <workItem from="1636035361694" duration="133000" />
-      <workItem from="1636035520724" duration="1199000" />
+      <workItem from="1636035520724" duration="1913000" />
     </task>
     <servers />
   </component>
