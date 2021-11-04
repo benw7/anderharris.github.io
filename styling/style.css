@@ -4,6 +4,12 @@
 html, body{
     height: 100%
 }
+
+a{
+    text-decoration: unset;
+    color: unset;
+}
+
 .main-body{
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
@@ -34,7 +40,11 @@ html, body{
 }
 
 .header-bar .navbar-option:hover{
-    background-color: #6665DD;
+    background-color: #8381e7;
+}
+
+.header-bar .navbar-option.selected{
+    background-color: #5654d6;
 }
 
 .page-content{
@@ -44,24 +54,31 @@ html, body{
     flex: 2;
 }
 
-.info-container{
-    border-radius: 2px;
-    background-color: #CBC5EA;
-    box-shadow: 0px 0px 2px 1px rgba(109, 109, 109, 0.425);
-    margin-bottom: 15px;
-    padding:10px;
-}
-
-.info-container .minititle{
-    width: 100%;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    font-size: large;
-    font-weight: bold;
-    border-bottom: 1px solid #979797;
-}
 
 ul{
     text-align: left;
     margin: auto;
+}
+
+.article{
+    box-shadow: 0px 0px 2px 1px rgb(122, 122, 122);
+    background-color: rgb(221, 221, 221);
+    padding: 5px;
+}
+
+.article .author{
+    width: 100%;
+    padding-left: 30px;
+    color: grey;
+    text-align: left;
+}
+
+.article .title{
+    width: 100%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.article .content{
+    padding: 15px;
 }
